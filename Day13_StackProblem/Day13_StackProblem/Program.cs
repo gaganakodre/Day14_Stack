@@ -43,7 +43,9 @@
             stack.Push(node1);
             stack.Push(node2);
             stack.Push(node3);
-            stack.DisplayStack();   
+            stack.DisplayStack(); 
+            stack.Pop();
+            stack.DisplayStack();
         }
     }
 }
