@@ -53,6 +53,9 @@
             queue.Enqueue(node2);
             queue.Enqueue(node3);
             queue.Display();
+            queue.deenque();
+            queue.Display();
+            
 
 
         }
